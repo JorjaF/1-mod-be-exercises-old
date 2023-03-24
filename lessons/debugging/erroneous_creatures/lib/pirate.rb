@@ -14,7 +14,7 @@ class Pirate
   end
 
   def commit_heinous_act
-    @cursed + 1
+    @cursed = @cursed + 1
   end
 
   def say(x)
