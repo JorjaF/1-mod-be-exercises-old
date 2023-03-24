@@ -2,7 +2,7 @@ require './lib/wizard'
 
 RSpec.describe Wizard do
   it "has name" do
-    wizard = Wizard.new("Eric")
+   wizard = Wizard.new("Eric")
 
     expect(wizard.name).to eq("Eric")
   end
