@@ -72,7 +72,7 @@ RSpec.describe Hobbit do
     expect(hobbit.play).to eq(true)
   end
 
-  it "can get tired if play 3times" do
+  it "can get tired if play 3 times" do
     hobbit = Hobbit.new('Otho')
 
     3.times do
