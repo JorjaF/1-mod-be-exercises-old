@@ -4,19 +4,19 @@ RSpec.describe 'count test' do
     words = ["thing", "phone", "bark", "belt", "shoe", "bath"]
     tally = words.count do |word|
       word.include?('e')
-    end
+    
     expect(tally).to eq(3)
   end
 
-  xit 'numbers greater than 17' do
-    numbers = [9, 18, 12, 17, 1, 3, 99]
-    tally = numbers.count do |number|
-      # Your code goes here
-    end
-    expect(tally).to eq(2)
-  end
+#  xit 'numbers greater than 17' do
+#    numbers = [9, 18, 12, 17, 1, 3, 99]
+#    tally = numbers.count do |number|
+#      number.count >= 17
+#    end
+#    expect(tally).to eq(2)
+#  end
 
-  xit 'words that are uppercase' do
+  xit 'words that are uppercase' 
     words = ["trousers", "SOCKS", "sweater", "Cap", "SHOE", "TIE"]
     # Your code goes here
     expect(tally).to eq(3)
