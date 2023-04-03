@@ -16,5 +16,13 @@ RSpec.describe Apartment do
     expect(apartment.rented).to eq(true)
   end
 
-  
+  it "can have up to 4 rooms and list them alphabetically." do 
+    apartment = Apartment.new
+    apartment.add_room("bathroom")
+    apartment.add_room("laundry")
+    apartment.add_room("kitchen")
+    apartment.add_room("bedroom")
+    expect(apartment.rooms).to eq(["bathroom", "bedroom", "kitchen", "laundry"])
+
+  end
 end
