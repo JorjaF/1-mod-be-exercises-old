@@ -1,5 +1,6 @@
 class Apartment
   attr_reader :rented, :rooms
+  attr_accessor :rooms
   
   def initialize(rented = false, rooms = [])
     @rented = rented
