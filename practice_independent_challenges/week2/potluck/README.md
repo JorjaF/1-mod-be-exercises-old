@@ -29,14 +29,7 @@ Use TDD to create a `Dish` class that responds to the following interaction patt
 pry(main)> require './lib/dish'
 #=> true
 
-pry(main)> dish = Dish.new("Couscous Salad", :appetizer)
-#=> #<Dish:0x00007f93fe9aa698...>
 
-pry(main)> dish.name
-#=> "Couscous Salad"
-
-pry(main)> dish.category
-#=> :appetizer
 ```
 
 ## Iteration 2
